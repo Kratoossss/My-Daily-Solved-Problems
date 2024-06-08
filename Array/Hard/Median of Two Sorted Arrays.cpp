@@ -15,7 +15,7 @@ public:
         int n = temp.size();
         int start = 0;
         int end = n-1;
-        float mid = (end - start)/2;
+        int mid = (end - start)/2;
         if(n%2 == 1)
         {
             return temp[mid];
